@@ -1,0 +1,7 @@
+\babel@toc {russian}{}
+\contentsline {section}{\numberline {1.\relax }Первинний аналіз вибірки.}{5}%
+\contentsline {section}{\numberline {2.\relax }Знаходження описових статистик.}{10}%
+\contentsline {section}{\numberline {3.\relax }Гіпотеза про розподіл}{12}%
+\contentsline {section}{\numberline {4.\relax }Оцінка параметрів.}{14}%
+\contentsline {section}{\numberline {5.\relax }Дослідження оцінки.}{16}%
+\contentsline {section}{\numberline {6.\relax }Інтервальні оцінки параметрів.}{19}%
