@@ -5,3 +5,5 @@
 \contentsline {section}{\numberline {4.\relax }Оцінка параметрів.}{14}%
 \contentsline {section}{\numberline {5.\relax }Дослідження оцінки.}{16}%
 \contentsline {section}{\numberline {6.\relax }Інтервальні оцінки параметрів.}{19}%
+\contentsline {section}{\numberline {7.\relax }Перевірка гіпотези про розподіл.}{22}%
+\contentsline {section}{\numberline {8.\relax }Висновки.}{23}%

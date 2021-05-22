@@ -69,6 +69,8 @@ amsthm,graphicx,systeme,amsmath,mdframed,lipsum}
 \def\ee{\end{equation}}
 \def\D{\mathbb{D}}
 \def\E{\mathbb{E}}
+\def\P{\mathbb{P}}
+\def\N{\mathcal{N}}
 
 \renewcommand{\contentsname}{Зміст}
 \tableofcontents
@@ -421,8 +423,8 @@ $$\lim\limits_{n\to\infty}{\E \lambda^*}=\lim\limits_{n\to\infty}{\frac{n\lambda
 \be\Rightarrow\lambda^*\text{~--~є асимптотично незміщеною.}\ee
 \newpage\\
 \underline{\textbf{Консистентність.}}
-$$\mathbb{P}\lim\limits_{n\to\infty}{a^*}\stackrel{?}{=}a$$
-$$\mathbb{P}\lim\limits_{n\to\infty}{\lambda^*}\stackrel{?}{=}\lambda$$
+$$\P \lim\limits_{n\to\infty}{a^*}\stackrel{?}{=}a$$
+$$\P \lim\limits_{n\to\infty}{\lambda^*}\stackrel{?}{=}\lambda$$
 Перевіримо за лемою про консистентність. Для цього потрібно обчислити дисперсії оцінок.
 $$\D a^*=\E (a^*)^2-\left(\E a^*\right)^2\,;$$
 $$\E (a^*)^2=\frac{n}\lambda\int\limits_{a}^{+\infty}{x^2\cdot e^{-n\frac{x-a}\lambda}\,dx}=
@@ -463,9 +465,9 @@ $$\left\{\begin{array}{l}
 \section{Інтервальні оцінки параметрів.}
 \underline{Задача:} побудувати інтервальні оцінки параметрів розподілу з довірчою імовірністю $\gamma=0.95$.\\
 Оскільки розподіл нестандартний, доволі важко буде знайти точний довірчий інтервал, але при великих n доволі непоганої точності можна досягти і з використанням асимптотичних довірчих інтервалів, тому знайдемо саме такий інтервал.\\
-\textbf{Озн.} $(\theta^*_{1n},\theta^*_{2n})$ називається асимптотичним довірчим інтервалом для параметру $\theta$, якщо $\lim\limits_{\overline{n\to\infty}}{\mathbb{P}\{\theta^*_{1n}<\theta<\theta^*_{2n}\}} \stackrel{(\geq)}{=}\gamma$.\\
+\textbf{Озн.} $(\theta^*_{1n},\theta^*_{2n})$ називається асимптотичним довірчим інтервалом для параметру $\theta$, якщо $\lim\limits_{\overline{n\to\infty}}{\P \{\theta^*_{1n}<\theta<\theta^*_{2n}\}} \stackrel{(\geq)}{=}\gamma$.\\
 \\При великих $n$
-$$\frac{\theta^*-\E\theta^*}{\sqrt{\D\theta^*}}\approx\mathcal{N}(0,1)$$
+$$\frac{\theta^*-\E\theta^*}{\sqrt{\D\theta^*}}\approx\N (0,1)$$
 % \begin{tikzpicture}
 %   \begin{axis}[
 %     axis lines=middle,
@@ -497,9 +499,9 @@ $$\frac{\theta^*-\E\theta^*}{\sqrt{\D\theta^*}}\approx\mathcal{N}(0,1)$$
   \caption{Рис. 6. Стандартний нормальний розподіл.}
 \end{center}
 \be t_\gamma:\Phi(t_\gamma)=\frac\gamma{2}\ee
-$$\mathbb{P}\{-t_\gamma<\mathcal{N}(0,1)<t_\gamma\}=\gamma$$
-\be\mathbb{P}\{-t_\gamma<\frac{\theta^*-\E\theta^*}{\sqrt{\D\theta^*}}<t_\gamma\}=\gamma\ee
-Для знаходження асимптотичної інтервальної оцінки параметра $\theta$ потрібно розв'язати нерівніть під оператором $\mathbb{P}$ відносно $\theta$.\\
+$$\P \{-t_\gamma<\N (0,1)<t_\gamma\}=\gamma$$
+\be\P \{-t_\gamma<\frac{\theta^*-\E\theta^*}{\sqrt{\D\theta^*}}<t_\gamma\}=\gamma\ee
+Для знаходження асимптотичної інтервальної оцінки параметра $\theta$ потрібно розв'язати нерівніть під оператором $\P $ відносно $\theta$.\\
 Для $\gamma=0.95$ маємо значення $t_\gamma=1.95996$.
 
 \newpage
@@ -525,6 +527,9 @@ $$\fbox{\Rightarrow}\;\lambda^*_{1,2}=\frac{-b\pm\sqrt{\mathcal{D}}}{2\hat{a}}=
 \frac{2(n^2-n)\lambda^*\pm2\lambda^*\sqrt{n(n^2t_\gamma^2-n+1)}}{2(n^2-n(2-t_\gamma^2)+1)}=$$
 \be=\frac{\lambda^*\left((n^2-n)\pm\sqrt{n(n^2t_\gamma^2-n+1)}\right)}{n^2-n(2+t_\gamma^2)+1}\ee
 
+Отже:
+$$\lambda\in(4.45658,\quad6.65321).$$
+Як видно, отримана за ММВ оцінка потрапляє у заданий проміжок, однак оцінка методом моментів~--~ні.
 
 \newpage
 \underline{\textbf{Асимптотичний інтервал для параметра зміщення $a$.}}\\
@@ -548,6 +553,65 @@ $$a\in\left(-\frac{\lambda^*t_\gamma}n+\min\{x_i\}-\frac{\lambda}n,\quad
 $$=(-4.6464,\quad-4.4393).$$
 Як видно, отримана методом максимальної вірогідності оцінка потрапляє у заданий проміжок, однак оцінка методом моментів~--~ні.
 
+\newpage
+\section{Перевірка гіпотези про розподіл.}
+Була висунута складна гіпотеза про розподіл $H_0=\{\xi\sim Exp(\lambda,a))\}$. Будемо перевіряти її за критерієм Пірсона ($\chi^2$) з рівнем значущості $\alpha=0.05$.\\
+Маємо вектор $\vec{\hat{\theta}}$ оцінок параметрів розподілу такий, що
+$$\vec{\hat{\theta}}=\arg\min\limits_{\vec{\theta^*}\in\Theta}\{\chi^2(n;\vec{\theta^*})\}$$
+, де
+$$\chi^2(n,\vec{\theta^*})=
+\sum\limits_{i=i}^{m}{\frac{(n_i-np_i(\vec{\theta^*}))^2}{np_i(\vec{\theta^*})}}
+\stackrel{d}{\to}\chi^2_{m-s-1}$$
+, де $m$~--~кількість інтервалів, у які потрапляють вибіркові дані для оцінювання, $n_i$~--~відповідні частоти потрапляння у інтервали, $np_i$~--~середня кількість потрапляння у інтервал, якби гіпотеза була вірною, $s$~--~кількість параметрів розподілу.\\
+$$\P\{\xi\in(c,\;d)\arrowvert\xi\sim Exp(\lambda,a)\}=
+F_{Exp(\lambda,a)}(d)-F_{Exp(\lambda,a)}(c)=$$
+$$(1-e^{-\frac{d-a}\lambda})\cdot\mathbb{I}\{d\geq a\}-
+(1-e^{-\frac{c-a}\lambda})\cdot\mathbb{I}\{c\geq a\}-$$
+\begin{table}[H]
+  \centering
+  \begin{tabular}{|c||c|c|c|c|}\hline
+    \parbox[c][0.8cm]{Iнтервал} & $[-4.49, -2.575)$ & $[-2.575, -0.66)$ & $[-0.66, 1.255)$ & $[1.255, 3.17)$ \\\hline\hline
+    $n_i$ & 22 & 21 & 15 & 18 \\\hline
+    $p_i$ & 0.304016 & 0.21159 & 0.147263 & 0.102493 \\\hline
+    $np_i$ & 30.4016 & 21.159 & 14.7263 & 10.2493 \\\hline\hline
+    \parbox[c][0.8cm]{Iнтервал} & $[3.17, 5.085)$ & $[5.085, 7)$ & $[7, 8.915)$ & $[8.915, 10.83)$ \\\hline\hline
+    $n_i$ & 10 & 8 & 3 & 2 \\\hline
+    $p_i$ & 0.0713335 & 0.049647 & 0.0345535 & 0.0240487 \\\hline
+    $np_i$ & 7.13335 & 4.9647 & 3.45535 & 2.40487 \\\hline\hline
+    \parbox[c][0.8cm]{Iнтервал} & $[10.83, 12.745)$ & $[12.745, 14.66)$ & $[14.66, 16.575)$ & $[16.575, +\infty)$ \\\hline\hline
+    $n_i$ & 0 & 0 & 0 & 1 \\\hline
+    $p_i$ & 0.0167375 & 0.011649 & 0.00810754 & 0.0185606 \\\hline
+    $np_i$ & 1.67375 & 1.1649 & 0.810754 & 1.85606 \\\hline
+  \end{tabular}
+  \caption{Частоти та середні частоти для розподілу Exp(5.2838,\;-4.49).}
+\end{table}
+
+% Для того, щоб виконувалася умова поліпшення збіжності $np_i\geq10$, об'єднаємо деякі інтервали.
+%
+% \newpage
+% \begin{table}[H]
+%   \centering
+%   \begin{tabular}{|c||c|c|c|}\hline
+%     \parbox[c][0.8cm]{Iнтервал} & $[-4.49, -2.575)$ & $[-2.575, -0.66)$ & $[-0.66, 1.255)$\\\hline\hline
+%     $n_i$ & 22 & 21 & 15 \\\hline
+%     $p_i$ & 0.304016 & 0.21159 & 0.147263  \\\hline
+%     $np_i$ & 30.4016 & 21.159 & 14.7263\\\hline\hline
+%     \parbox[c][0.8cm]{Iнтервал} & $[1.255, 3.17)$ & $[3.17, 7)$ & $[7, +\infty)$\\\hline
+%     $n_i$ & 18 & 18 & 6 \\\hline
+%     $p_i$ & 0.102493 & 0.1209805 & 0.10634564 \\\hline
+%     $np_i$ & 10.2493 & 12.09805 & 10.634564 \\\hline
+%   \end{tabular}
+%   \caption{<<Нові>> частоти та середні частоти.}
+% \end{table}
+
+$$\chi^2(100; 5.2838,\;-4.49)=
+\sum\limits_{i = 1}^{6}{\frac{(n_i-np_i(5.2838,\;-4.49))^2}{np_i(5.2838,\;-4.49)}}\approx15.3694\,;$$
+$$\chi^2_{12-2-1,0.05}=\chi^2_{9,0.05}\approx16.92>\chi^2(n;\lambda^*,a^*)\,.$$
+Як видно, отримане значення менше відповідного значення $\chi^2$, отже, нарівні значущості $\alpha=0.05$ гіпотезу про розподіл приймаємо.\\
+\section{Висновки.}\\\\
+
+У даній роботі було на практиці використнно отримані теоретичні знання та проведено аналіз вибірки із ГС та досліджено її розподіл. Роботу можна умовно поділити на 2 частини~--~обробку вибіркових даних, розрахунок описових статистик та побудову відповідних графіків; пошук можливого розподілу, обґрунтування його вибору, побудову оцінок параметрів та перевірку гіпотези про розподіл.\\
+В результаті було доведено, що розподіл є зміщеним експоненційним $Exp(\lambda,a)$ з ймовірними значеннями параметрів $\lambda=5.2838, a=-4.49$.
 
 
 \end{document}

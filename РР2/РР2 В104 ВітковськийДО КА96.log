@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.11.27)  22 MAY 2021 21:19
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.11.27)  23 MAY 2021 00:22
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1348,7 +1348,7 @@ your preamble.
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
 LaTeX Font Info:    Trying to load font information for T2A+cmss on input line 
-74.
+76.
 
 (/usr/share/texlive/texmf-dist/tex/latex/cyrillic/t2acmss.fd
 File: t2acmss.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
@@ -1358,56 +1358,56 @@ File: t2acmss.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
 \openout4 = `"РР2 В104 ВітковськийДО КА96.toc"'.
 
  [2]
-Underfull \hbox (badness 10000) in paragraph at lines 77--78
+Underfull \hbox (badness 10000) in paragraph at lines 79--80
 
  []
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 81.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 83.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 81.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 83.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [3]
-Underfull \hbox (badness 10000) in paragraph at lines 90--103
+Underfull \hbox (badness 10000) in paragraph at lines 92--105
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 90--103
+Underfull \hbox (badness 10000) in paragraph at lines 92--105
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 90--103
+Underfull \hbox (badness 10000) in paragraph at lines 92--105
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 104--116
+Underfull \hbox (badness 10000) in paragraph at lines 106--118
 
  []
 
 [4]
-./РР2 В104 ВітковськийДО КА96.tex:135: Missing number, treate
+./РР2 В104 ВітковськийДО КА96.tex:137: Missing number, treate
 d as zero.
 <to be read again> 
                    I
-l.135     \parbox[c][0.8cm]{Iнтервал} &
+l.137     \parbox[c][0.8cm]{Iнтервал} &
                                                $[-4.49, -2.575)$ & $[-2.575,...
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
 
-./РР2 В104 ВітковськийДО КА96.tex:135: Illegal unit of measur
+./РР2 В104 ВітковськийДО КА96.tex:137: Illegal unit of measur
 e (pt inserted).
 <to be read again> 
                    I
-l.135     \parbox[c][0.8cm]{Iнтервал} &
+l.137     \parbox[c][0.8cm]{Iнтервал} &
                                                $[-4.49, -2.575)$ & $[-2.575,...
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -1417,26 +1417,26 @@ delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
 
-Overfull \hbox (2.8893pt too wide) in paragraph at lines 134--141
+Overfull \hbox (2.8893pt too wide) in paragraph at lines 136--143
  [][] 
  []
 
 [5]
-./РР2 В104 ВітковськийДО КА96.tex:147: Missing number, treate
+./РР2 В104 ВітковськийДО КА96.tex:149: Missing number, treate
 d as zero.
 <to be read again> 
                    I
-l.147     \parbox[c][0.8cm]{Iнтервал} &
+l.149     \parbox[c][0.8cm]{Iнтервал} &
                                                $[3.17, 5.085)$ & $[5.085, 7)...
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
 
-./РР2 В104 ВітковськийДО КА96.tex:147: Illegal unit of measur
+./РР2 В104 ВітковськийДО КА96.tex:149: Illegal unit of measur
 e (pt inserted).
 <to be read again> 
                    I
-l.147     \parbox[c][0.8cm]{Iнтервал} &
+l.149     \parbox[c][0.8cm]{Iнтервал} &
                                                $[3.17, 5.085)$ & $[5.085, 7)...
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -1445,21 +1445,21 @@ To recover gracefully from this error, it's best to
 delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
-./РР2 В104 ВітковськийДО КА96.tex:156: Missing number, treate
+./РР2 В104 ВітковськийДО КА96.tex:158: Missing number, treate
 d as zero.
 <to be read again> 
                    I
-l.156     \parbox[c][0.8cm]{Iнтервал} &
+l.158     \parbox[c][0.8cm]{Iнтервал} &
                                                $[10.83, 12.745)$ & $[12.745,...
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
 
-./РР2 В104 ВітковськийДО КА96.tex:156: Illegal unit of measur
+./РР2 В104 ВітковськийДО КА96.tex:158: Illegal unit of measur
 e (pt inserted).
 <to be read again> 
                    I
-l.156     \parbox[c][0.8cm]{Iнтервал} &
+l.158     \parbox[c][0.8cm]{Iнтервал} &
                                                $[10.83, 12.745)$ & $[12.745,...
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -1469,19 +1469,19 @@ delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
 
-Overfull \hbox (1.7218pt too wide) in paragraph at lines 155--163
+Overfull \hbox (1.7218pt too wide) in paragraph at lines 157--165
  [][] 
  []
 
 
-./РР2 В104 ВітковськийДО КА96.tex:165: LaTeX Error: There's n
+./РР2 В104 ВітковськийДО КА96.tex:167: LaTeX Error: There's n
 o line here to end.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.165 \\�
+l.167 \\�
          �мпірична функція розподілу (інтерва...
 
 Your command was ignored.
@@ -1489,7 +1489,7 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 165--166
+Underfull \hbox (badness 10000) in paragraph at lines 167--168
 
  []
 
@@ -1498,32 +1498,32 @@ Underfull \hbox (badness 10000) in paragraph at lines 165--166
 File: РР2 емп. ф-ція розподілу.png Graphic file (type png)
 <use РР2 емп. ф-ція розподілу.png>
 Package pdftex.def Info: РР2 емп. ф-ція розподілу.png  used o
-n input line 190.
+n input line 192.
 (pdftex.def)             Requested size: 505.08939pt x 317.38725pt.
 
-Overfull \hbox (13.02402pt too wide) in paragraph at lines 190--190
+Overfull \hbox (13.02402pt too wide) in paragraph at lines 192--192
  [] 
  []
 
 
-./РР2 В104 ВітковськийДО КА96.tex:191: LaTeX Error: \caption 
+./РР2 В104 ВітковськийДО КА96.tex:193: LaTeX Error: \caption 
 outside float.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.191   \caption
+l.193   \caption
                 {Рис. 1. Інтервальна емпірична фун...
 
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-./РР2 В104 ВітковськийДО КА96.tex:191: Undefined control sequ
+./РР2 В104 ВітковськийДО КА96.tex:193: Undefined control sequ
 ence.
 \caption ... \endcsname \fi \fi \@dblarg {\@tempf 
                                                   \@captype }
-l.191   \caption
+l.193   \caption
                 {Рис. 1. Інтервальна емпірична фун...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1531,11 +1531,11 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./РР2 В104 ВітковськийДО КА96.tex:191: Undefined control sequ
+./РР2 В104 ВітковськийДО КА96.tex:193: Undefined control sequ
 ence.
 \caption ...e \fi \fi \@dblarg {\@tempf \@captype 
                                                   }
-l.191   \caption
+l.193   \caption
                 {Рис. 1. Інтервальна емпірична фун...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1547,32 +1547,32 @@ and I'll forget about whatever was undefined.
 <РР2 гістограма.png, id=40, 608.2725pt x 376.40625pt>
 File: РР2 гістограма.png Graphic file (type png)
 <use РР2 гістограма.png>
-Package pdftex.def Info: РР2 гістограма.png  used on input line 196
+Package pdftex.def Info: РР2 гістограма.png  used on input line 198
 .
 (pdftex.def)             Requested size: 517.03407pt x 319.94681pt.
 
-Overfull \hbox (24.9687pt too wide) in paragraph at lines 196--196
+Overfull \hbox (24.9687pt too wide) in paragraph at lines 198--198
  [] 
  []
 
 
-./РР2 В104 ВітковськийДО КА96.tex:197: LaTeX Error: \caption 
+./РР2 В104 ВітковськийДО КА96.tex:199: LaTeX Error: \caption 
 outside float.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.197   \caption
+l.199   \caption
                 {Рис. 2. Гістограма розподілу.}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-./РР2 В104 ВітковськийДО КА96.tex:197: Undefined control sequ
+./РР2 В104 ВітковськийДО КА96.tex:199: Undefined control sequ
 ence.
 \caption ... \endcsname \fi \fi \@dblarg {\@tempf 
                                                   \@captype }
-l.197   \caption
+l.199   \caption
                 {Рис. 2. Гістограма розподілу.}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1580,11 +1580,11 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./РР2 В104 ВітковськийДО КА96.tex:197: Undefined control sequ
+./РР2 В104 ВітковськийДО КА96.tex:199: Undefined control sequ
 ence.
 \caption ...e \fi \fi \@dblarg {\@tempf \@captype 
                                                   }
-l.197   \caption
+l.199   \caption
                 {Рис. 2. Гістограма розподілу.}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1596,27 +1596,27 @@ and I'll forget about whatever was undefined.
 <РР2 box plot.png, id=44, 551.05875pt x 352.31625pt>
 File: РР2 box plot.png Graphic file (type png)
 <use РР2 box plot.png>
-Package pdftex.def Info: РР2 box plot.png  used on input line 202.
+Package pdftex.def Info: РР2 box plot.png  used on input line 204.
 (pdftex.def)             Requested size: 468.40213pt x 299.47021pt.
 
 
-./РР2 В104 ВітковськийДО КА96.tex:203: LaTeX Error: \caption 
+./РР2 В104 ВітковськийДО КА96.tex:205: LaTeX Error: \caption 
 outside float.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.203   \caption
+l.205   \caption
                 {Рис. 3. Ящик з вусами.}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-./РР2 В104 ВітковськийДО КА96.tex:203: Undefined control sequ
+./РР2 В104 ВітковськийДО КА96.tex:205: Undefined control sequ
 ence.
 \caption ... \endcsname \fi \fi \@dblarg {\@tempf 
                                                   \@captype }
-l.203   \caption
+l.205   \caption
                 {Рис. 3. Ящик з вусами.}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1624,11 +1624,11 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./РР2 В104 ВітковськийДО КА96.tex:203: Undefined control sequ
+./РР2 В104 ВітковськийДО КА96.tex:205: Undefined control sequ
 ence.
 \caption ...e \fi \fi \@dblarg {\@tempf \@captype 
                                                   }
-l.203   \caption
+l.205   \caption
                 {Рис. 3. Ящик з вусами.}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1637,50 +1637,50 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 [9 <./РР2 box plot.png (PNG copy)>]
-Underfull \hbox (badness 10000) in paragraph at lines 223--225
+Underfull \hbox (badness 10000) in paragraph at lines 225--227
 
  []
 
 [10]
-Underfull \hbox (badness 10000) in paragraph at lines 251--253
+Underfull \hbox (badness 10000) in paragraph at lines 253--255
 
  []
 
 
-Overfull \hbox (4.34863pt too wide) in paragraph at lines 254--255
+Overfull \hbox (4.34863pt too wide) in paragraph at lines 256--257
 []\T2A/cmr/m/n/14.4 ��� ���-���-���-�� ��� ��-�-�i-�i��-�i� ��-��i�-�� ��-�����
 -��-�� ��-�i�-��-�i ���-�����-
  []
 
 [11]
-Underfull \hbox (badness 10000) in paragraph at lines 282--283
+Underfull \hbox (badness 10000) in paragraph at lines 284--285
 
  []
 
 <FF.png, id=57, 523.9575pt x 324.21124pt>
 File: FF.png Graphic file (type png)
 <use FF.png>
-Package pdftex.def Info: FF.png  used on input line 291.
+Package pdftex.def Info: FF.png  used on input line 293.
 (pdftex.def)             Requested size: 523.95622pt x 324.21045pt.
 
-./РР2 В104 ВітковськийДО КА96.tex:292: LaTeX Error: \caption 
+./РР2 В104 ВітковськийДО КА96.tex:294: LaTeX Error: \caption 
 outside float.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.292   \caption
+l.294   \caption
                 {Рис. 4. Емпірична функція розподі...
 
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-./РР2 В104 ВітковськийДО КА96.tex:292: Undefined control sequ
+./РР2 В104 ВітковськийДО КА96.tex:294: Undefined control sequ
 ence.
 \caption ... \endcsname \fi \fi \@dblarg {\@tempf 
                                                   \@captype }
-l.292   \caption
+l.294   \caption
                 {Рис. 4. Емпірична функція розподі...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1688,11 +1688,11 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./РР2 В104 ВітковськийДО КА96.tex:292: Undefined control sequ
+./РР2 В104 ВітковськийДО КА96.tex:294: Undefined control sequ
 ence.
 \caption ...e \fi \fi \@dblarg {\@tempf \@captype 
                                                   }
-l.292   \caption
+l.294   \caption
                 {Рис. 4. Емпірична функція розподі...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1701,34 +1701,34 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-Overfull \hbox (31.89085pt too wide) in paragraph at lines 291--293
+Overfull \hbox (31.89085pt too wide) in paragraph at lines 293--295
  [] 
  []
 
 <fH.png, id=58, 601.24625pt x 372.39125pt>
 File: fH.png Graphic file (type png)
 <use fH.png>
-Package pdftex.def Info: fH.png  used on input line 295.
+Package pdftex.def Info: fH.png  used on input line 297.
 (pdftex.def)             Requested size: 541.11661pt x 335.14902pt.
 
-./РР2 В104 ВітковськийДО КА96.tex:296: LaTeX Error: \caption 
+./РР2 В104 ВітковськийДО КА96.tex:298: LaTeX Error: \caption 
 outside float.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.296   \caption
+l.298   \caption
                 {Рис. 5. Гістограма у порівнянні і�...
 
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-./РР2 В104 ВітковськийДО КА96.tex:296: Undefined control sequ
+./РР2 В104 ВітковськийДО КА96.tex:298: Undefined control sequ
 ence.
 \caption ... \endcsname \fi \fi \@dblarg {\@tempf 
                                                   \@captype }
-l.296   \caption
+l.298   \caption
                 {Рис. 5. Гістограма у порівнянні і�...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1736,11 +1736,11 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./РР2 В104 ВітковськийДО КА96.tex:296: Undefined control sequ
+./РР2 В104 ВітковськийДО КА96.tex:298: Undefined control sequ
 ence.
 \caption ...e \fi \fi \@dblarg {\@tempf \@captype 
                                                   }
-l.296   \caption
+l.298   \caption
                 {Рис. 5. Гістограма у порівнянні і�...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1749,28 +1749,28 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-Overfull \hbox (49.05124pt too wide) in paragraph at lines 295--297
+Overfull \hbox (49.05124pt too wide) in paragraph at lines 297--299
  [] 
  []
 
 [12 <./FF.png (PNG copy)>] [13 <./fH.png (PNG copy)>]
-Underfull \hbox (badness 10000) in paragraph at lines 303--305
+Underfull \hbox (badness 10000) in paragraph at lines 305--307
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 303--305
+Underfull \hbox (badness 10000) in paragraph at lines 305--307
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 306--307
+Underfull \hbox (badness 10000) in paragraph at lines 308--309
 
  []
 
-./РР2 В104 ВітковськийДО КА96.tex:331: Undefined control sequ
+./РР2 В104 ВітковськийДО КА96.tex:333: Undefined control sequ
 ence.
-l.331 \end{array}\ringh
+l.333 \end{array}\ringh
                        |=$$
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1778,11 +1778,11 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./РР2 В104 ВітковськийДО КА96.tex:331: Missing \right. insert
+./РР2 В104 ВітковськийДО КА96.tex:333: Missing \right. insert
 ed.
 <inserted text> 
                 \right .
-l.331 \end{array}\ringh|=$
+l.333 \end{array}\ringh|=$
                           $
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1791,100 +1791,100 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 339--341
+Underfull \hbox (badness 10000) in paragraph at lines 341--343
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 344--345
+Underfull \hbox (badness 10000) in paragraph at lines 346--347
 
  []
 
 [14]
-Underfull \hbox (badness 10000) in paragraph at lines 351--352
+Underfull \hbox (badness 10000) in paragraph at lines 353--354
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 363--364
+Underfull \hbox (badness 10000) in paragraph at lines 365--366
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 367--368
+Underfull \hbox (badness 10000) in paragraph at lines 369--370
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 373--376
+Underfull \hbox (badness 10000) in paragraph at lines 375--378
 
  []
 
 [15]
-Underfull \hbox (badness 10000) in paragraph at lines 395--397
+Underfull \hbox (badness 10000) in paragraph at lines 397--399
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 413--415
+Underfull \hbox (badness 10000) in paragraph at lines 415--417
 
  []
 
 [16]
 
-./РР2 В104 ВітковськийДО КА96.tex:423: LaTeX Error: There's n
+./РР2 В104 ВітковськийДО КА96.tex:425: LaTeX Error: There's n
 o line here to end.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.423 \underline
+l.425 \underline
                 {\textbf{Консистентність.}}
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (6.84433pt too wide) detected at line 435
+Overfull \hbox (6.84433pt too wide) detected at line 437
 \OT1/cmr/m/n/14.4 = [][] + 2 [] [] = \OML/cmm/m/it/14.4 a[] \OT1/cmr/m/n/14.4 +
  2 [] =
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 443--444
+Underfull \hbox (badness 10000) in paragraph at lines 445--446
 
  []
 
 [17] [18]
-Underfull \hbox (badness 10000) in paragraph at lines 464--468
+Underfull \hbox (badness 10000) in paragraph at lines 466--470
 
  []
 
 <N(0,1).png, id=83, 493.845pt x 233.87375pt>
 File: N(0,1).png Graphic file (type png)
 <use N(0,1).png>
-Package pdftex.def Info: N(0,1).png  used on input line 496.
+Package pdftex.def Info: N(0,1).png  used on input line 498.
 (pdftex.def)             Requested size: 493.84378pt x 233.87315pt.
 
-./РР2 В104 ВітковськийДО КА96.tex:497: LaTeX Error: \caption 
+./РР2 В104 ВітковськийДО КА96.tex:499: LaTeX Error: \caption 
 outside float.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.497   \caption
+l.499   \caption
                 {Рис. 6. Стандартний нормальний ро...
 
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-./РР2 В104 ВітковськийДО КА96.tex:497: Undefined control sequ
+./РР2 В104 ВітковськийДО КА96.tex:499: Undefined control sequ
 ence.
 \caption ... \endcsname \fi \fi \@dblarg {\@tempf 
                                                   \@captype }
-l.497   \caption
+l.499   \caption
                 {Рис. 6. Стандартний нормальний ро...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1892,11 +1892,11 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./РР2 В104 ВітковськийДО КА96.tex:497: Undefined control sequ
+./РР2 В104 ВітковськийДО КА96.tex:499: Undefined control sequ
 ence.
 \caption ...e \fi \fi \@dblarg {\@tempf \@captype 
                                                   }
-l.497   \caption
+l.499   \caption
                 {Рис. 6. Стандартний нормальний ро...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1905,33 +1905,33 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-Overfull \hbox (1.77841pt too wide) in paragraph at lines 496--498
+Overfull \hbox (1.77841pt too wide) in paragraph at lines 498--500
  [] 
  []
 
 [19 <./N(0,1).png (PNG copy)>]
-Overfull \hbox (1.6999pt too wide) in paragraph at lines 506--507
+Overfull \hbox (1.6999pt too wide) in paragraph at lines 508--509
 []$[]$ 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 506--507
+Underfull \hbox (badness 10000) in paragraph at lines 508--509
 
  []
 
-./РР2 В104 ВітковськийДО КА96.tex:520: Missing $ inserted.
+./РР2 В104 ВітковськийДО КА96.tex:522: Missing $ inserted.
 <inserted text> 
                 $
-l.520 ...da+n^2(\lambda^*)^2<0\;\fbox{\Rightarrow}
+l.522 ...da+n^2(\lambda^*)^2<0\;\fbox{\Rightarrow}
                                                   $$
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-./РР2 В104 ВітковськийДО КА96.tex:520: Extra }, or forgotten 
+./РР2 В104 ВітковськийДО КА96.tex:522: Extra }, or forgotten 
 $.
 \fbox  ...x {\color@begingroup \kern \fboxsep {#1}
                                                   \kern \fboxsep \color@endg...
-l.520 ...da+n^2(\lambda^*)^2<0\;\fbox{\Rightarrow}
+l.522 ...da+n^2(\lambda^*)^2<0\;\fbox{\Rightarrow}
                                                   $$
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1939,18 +1939,18 @@ you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
-./РР2 В104 ВітковськийДО КА96.tex:520: Missing $ inserted.
+./РР2 В104 ВітковськийДО КА96.tex:522: Missing $ inserted.
 <inserted text> 
                 $
-l.520 ...da+n^2(\lambda^*)^2<0\;\fbox{\Rightarrow}
+l.522 ...da+n^2(\lambda^*)^2<0\;\fbox{\Rightarrow}
                                                   $$
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-./РР2 В104 ВітковськийДО КА96.tex:520: Missing } inserted.
+./РР2 В104 ВітковськийДО КА96.tex:522: Missing } inserted.
 <inserted text> 
                 }
-l.520 ...da+n^2(\lambda^*)^2<0\;\fbox{\Rightarrow}
+l.522 ...da+n^2(\lambda^*)^2<0\;\fbox{\Rightarrow}
                                                   $$
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1958,19 +1958,19 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-./РР2 В104 ВітковськийДО КА96.tex:524: Missing $ inserted.
+./РР2 В104 ВітковськийДО КА96.tex:526: Missing $ inserted.
 <inserted text> 
                 $
-l.524 $$\fbox{\Rightarrow}
+l.526 $$\fbox{\Rightarrow}
                           \;\lambda^*_{1,2}=\frac{-b\pm\sqrt{\mathcal{D}}}{2...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-./РР2 В104 ВітковськийДО КА96.tex:524: Extra }, or forgotten 
+./РР2 В104 ВітковськийДО КА96.tex:526: Extra }, or forgotten 
 $.
 \fbox  ...x {\color@begingroup \kern \fboxsep {#1}
                                                   \kern \fboxsep \color@endg...
-l.524 $$\fbox{\Rightarrow}
+l.526 $$\fbox{\Rightarrow}
                           \;\lambda^*_{1,2}=\frac{-b\pm\sqrt{\mathcal{D}}}{2...
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1978,18 +1978,18 @@ you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
-./РР2 В104 ВітковськийДО КА96.tex:524: Missing $ inserted.
+./РР2 В104 ВітковськийДО КА96.tex:526: Missing $ inserted.
 <inserted text> 
                 $
-l.524 $$\fbox{\Rightarrow}
+l.526 $$\fbox{\Rightarrow}
                           \;\lambda^*_{1,2}=\frac{-b\pm\sqrt{\mathcal{D}}}{2...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-./РР2 В104 ВітковськийДО КА96.tex:524: Missing } inserted.
+./РР2 В104 ВітковськийДО КА96.tex:526: Missing } inserted.
 <inserted text> 
                 }
-l.524 $$\fbox{\Rightarrow}
+l.526 $$\fbox{\Rightarrow}
                           \;\lambda^*_{1,2}=\frac{-b\pm\sqrt{\mathcal{D}}}{2...
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1998,15 +1998,123 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 [20]
-Underfull \hbox (badness 10000) in paragraph at lines 530--531
+Underfull \hbox (badness 10000) in paragraph at lines 535--536
 
  []
 
-[21] (./РР2 В104 ВітковськийДО КА96.aux) ) 
+[21]
+Underfull \hbox (badness 10000) in paragraph at lines 564--566
+
+ []
+
+./РР2 В104 ВітковськийДО КА96.tex:573: Missing number, treate
+d as zero.
+<to be read again> 
+                   I
+l.573     \parbox[c][0.8cm]{Iнтервал} &
+                                               $[-4.49, -2.575)$ & $[-2.575,...
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+./РР2 В104 ВітковськийДО КА96.tex:573: Illegal unit of measur
+e (pt inserted).
+<to be read again> 
+                   I
+l.573     \parbox[c][0.8cm]{Iнтервал} &
+                                               $[-4.49, -2.575)$ & $[-2.575,...
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+./РР2 В104 ВітковськийДО КА96.tex:577: Missing number, treate
+d as zero.
+<to be read again> 
+                   I
+l.577     \parbox[c][0.8cm]{Iнтервал} &
+                                               $[3.17, 5.085)$ & $[5.085, 7)...
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+./РР2 В104 ВітковськийДО КА96.tex:577: Illegal unit of measur
+e (pt inserted).
+<to be read again> 
+                   I
+l.577     \parbox[c][0.8cm]{Iнтервал} &
+                                               $[3.17, 5.085)$ & $[5.085, 7)...
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+./РР2 В104 ВітковськийДО КА96.tex:581: Missing number, treate
+d as zero.
+<to be read again> 
+                   I
+l.581     \parbox[c][0.8cm]{Iнтервал} &
+                                               $[10.83, 12.745)$ & $[12.745,...
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+./РР2 В104 ВітковськийДО КА96.tex:581: Illegal unit of measur
+e (pt inserted).
+<to be read again> 
+                   I
+l.581     \parbox[c][0.8cm]{Iнтервал} &
+                                               $[10.83, 12.745)$ & $[12.745,...
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 609--611
+
+ []
+
+[22]
+
+./РР2 В104 ВітковськийДО КА96.tex:611: LaTeX Error: There's n
+o line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.611 \section{Висновки.}\\\\
+                                     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./РР2 В104 ВітковськийДО КА96.tex:612: LaTeX Error: There's n
+o line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.612 
+      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[23] (./РР2 В104 ВітковськийДО КА96.aux) ) 
 Here is how much of TeX's memory you used:
  32178 strings out of 481239
  769789 string characters out of 5920376
- 1346174 words of memory out of 5000000
+ 1346172 words of memory out of 5000000
  46852 multiletter control sequences out of 15000+600000
  541294 words of font info for 44 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -2027,11 +2135,11 @@ nts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf/fonts/type1/public/cm-
 super/sfrm1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1440.pfb><
 /usr/share/texmf/fonts/type1/public/cm-super/sfsx1440.pfb></usr/share/texmf/fon
 ts/type1/public/cm-super/sfsx2074.pfb>
-Output written on "РР2 В104 ВітковськийДО КА96.pdf" (21 pages
-, 280776 bytes).
+Output written on "РР2 В104 ВітковськийДО КА96.pdf" (23 pages
+, 290405 bytes).
 PDF statistics:
- 146 PDF objects out of 1000 (max. 8388607)
- 100 compressed objects within 1 object stream
+ 153 PDF objects out of 1000 (max. 8388607)
+ 104 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  43 words of extra memory for PDF output out of 10000 (max. 10000000)
 
