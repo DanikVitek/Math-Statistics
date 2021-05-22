@@ -370,6 +370,9 @@ INPUT ./FF.png
 INPUT fH.png
 INPUT ./fH.png
 INPUT ./fH.png
+INPUT N(0,1).png
+INPUT ./N(0,1).png
+INPUT ./N(0,1).png
 INPUT РР2 В104 ВітковськийДО КА96.aux
 INPUT /usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t2a.enc
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb

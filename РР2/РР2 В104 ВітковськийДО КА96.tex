@@ -117,8 +117,9 @@ amsthm,graphicx,systeme,amsmath,mdframed,lipsum}
 
 
 \section{Первинний аналіз вибірки.}
-\justifying Оскільки з даних видно, що розподіл неперервний, то для побудови статистичного ряду дані з вибірки треба розбити на рівновеликі інтервали. Емпіричною формулою кількості таких інтервалів є формула Стерджеса:
+\quadОскільки з даних видно, що розподіл неперервний, то для побудови статистичного ряду дані з вибірки треба розбити на рівновеликі інтервали. Емпіричною формулою кількості таких інтервалів є формула Стерджеса:
 \be m = 1 + \log_2{n} = 1 + \log_2{100}=7.644\approx8.\ee
+
 Але мені така кількість видається замалою, тому використаю значення
 \be m=12. \ee
 Отже\\
@@ -221,6 +222,7 @@ F_n^*(x)=\left\{\begin{array}{ll}
   \frac1{99}\sum\limits_{i=1}^{100}(x_i-0.7938)^2=15.1645
 \ee
 \underline{Вибіркова медіана:}\\
+
 Оскільки маємо відсортований набір усіх $x$, можна доволі легко обчислити медіану за наступною формулою:
 $$\mathcal{M}^*_e=
 \left\{\begin{array}{ll}
@@ -233,7 +235,6 @@ $$\mathcal{M}^*_e=
   \mathcal{M}^*_e=\frac{x_{(k)}+x_{(k+1)}}2=\frac{0.43+0.49}2=
   0.46
 \ee
-
 \underline{Вибіркова мода:}
 \be
   mo = 1 \text{--- номер модального класу}
@@ -249,6 +250,7 @@ $$
   \frac{22-0}{(22-0)+(22-21)} = -2.65826
 $$
 \underline{Вибіркові коефіцієнти асиметрії та екцесу:}\\
+
 Для знаходження цих коефіцієнтів потрібно обчислювати вибіркові центральні моменти за наступною формулою:
 \be
   \overline{\mu_k}=\frac1n\sum\limits_{i=1}^n(x_i-\overline{x})^k
@@ -269,7 +271,6 @@ $$
 $$\alpha=0.25\Rightarrow
 K = n\cdot\alpha=100*0.25=25\in\mathbb{Z}\Rightarrow$$
 \be\Rightarrow Q_1=q_\alpha=\frac{x_{(K)}+x_{(K+1)}}2=\frac{-2.15-2.11}2=-2.13\ee
-
 \underline{Третій квартиль:}
 $$\alpha=0.75\Rightarrow
 K = n\cdot\alpha=100*0.75=75\in\mathbb{Z}\Rightarrow$$
@@ -277,7 +278,9 @@ K = n\cdot\alpha=100*0.75=75\in\mathbb{Z}\Rightarrow$$
 
 \newpage
 \section{Гіпотеза про розподіл}
-Дані вибірки майже не мають повторень та не є цілими числами, тому розподіл є неперервним. Вибірка найбільше схожа на зміщену експоненційно розподілену, оскільки має найбільшу частоту у лівій своїй частині яка швидко зменшується при русі у додатному напрямку. Її гістограма та емпірична функція розподілу схожі на відповідні функції для зміщеного на 4.49 у від'ємному напрямку експоненціного розподілу.\\
+
+\qquadДані вибірки майже не мають повторень та не є цілими числами, тому розподіл є неперервним. Вибірка найбільше схожа на зміщену експоненційно розподілену, оскільки має найбільшу частоту у лівій своїй частині яка швидко зменшується при русі у додатному напрямку. Її гістограма та емпірична функція розподілу схожі на відповідні функції для зміщеного на 4.49 у від'ємному напрямку експоненціного розподілу.\\
+
 Таким чином висунемо гіпотезу що ГС розподілена за експоненційним законом зі зміщенням $a$ та відповідним параметром $\frac1\lambda$, де $\lambda=\E _\xi-a$:
 $$H_0=\left\{\xi\sim Exp(\lambda,a)=Exp(\frac1\lambda)+a\right\}$$
 $$f_{Exp(\lambda,a)}(x)=\left\{\begin{array}{ll}
@@ -296,8 +299,10 @@ $$f_{Exp(\lambda,a)}(x)=\left\{\begin{array}{ll}
 
 \newpage
 \section{Оцінка параметрів.}
+
 Для зміщеного експоненційного розподівлу маємо параметри $\lambda$ та $a$. Треба їх оцінити.\\\\
 \quad\underline{\textbf{Метод моментів.}}\\
+
 Для знаходження оцінки методом моментів, треба розв'язати систему рівнянь, що включає s моментів розподілу, де s~--~кількість параметрів розподілу, а також їх емпіричні еквіваленти.\\
 $$\E \xi=\int\limits_{-\infty}^{+\infty}{xf_\xi(x)\,dx}=
 \int\limits_{a}^{+\infty}{x\cdot\frac1\lambda e^{-\frac{x-a}\lambda}\,dx}=
@@ -344,6 +349,7 @@ $$\left\{\begin{array}{l}
 
 \newpage
 \underline{\textbf{Метод максимальної вірогідності.}}\\
+
 Для знаходження оцінки методом максимальної вірогідності треба максимізувати функцію вірогідності за параметрами $\lambda$ та $a$. Можемо спробувати знайти її глобальний максимум.
 $$\mathcal{L}(x_1,\dots,x_n,\lambda,a)=f_{\xi_1,\dots,\xi_n}(x_1,\dots,x_n)=\prod\limits_{i=1}^n{f_{\xi_i}(x_i)}=\prod\limits_{i=1}^n{f_\xi(x_i)}=$$
 $$=\arrowvert x\geq a\arrowvert=\prod\limits_{i=1}^n{\frac1\lambda e^{-\frac{x_i-a}\lambda}}=
@@ -378,13 +384,14 @@ $$\det{\left(\begin{array}{cc}
   \lambda^*\rightarrow\infty\,.
 \end{array}\right.\quad\Rightarrow\quad
 \left\{\begin{array}{l}
-  \lambda^*=\overline{x}-a^*\,;\\
-  a^* = \min\{x_i\}\,.
+  a^* = \min\{x_i\}=-4.49\,;\\
+  \lambda^*=\overline{x}-a^*=5.2838\,.
 \end{array}\right.
 \ee
 
 \newpage
 \section{Дослідження оцінки.}
+
 Кращою з двох отриманих оцінок є оцінка методом максимальної вірогідності. Проведемо її дослідження.\\
 \underline{\textbf{Незміщеність.}}\\
 $$\E {a^*}=\E {\min\{\xi_i\}}\fbox{$=$}$$
@@ -428,7 +435,7 @@ a^2+2\left(\left.-\frac{\lambda}{n}xe^{-n\frac{x-a}{\lambda}}\right|_a^{+\infty}
 \frac{\lambda}{n}\int\limits_{a}^{+\infty}{e^{-n\frac{x-a}{\lambda}}\,dx}\right)=$$
 $$=a^2+2\cdot\frac{\lambda}n\cdot\frac{na+\lambda}n=
 a^2+\frac{2na\lambda+2\lambda^2}{n^2}\,;$$
-$$\D a^*=a^2+\frac{2na\lambda+2\lambda^2}{n^2}-\frac{(na+\lambda)^2}{n^2}\,;$$
+\be\D a^*=a^2+\frac{2na\lambda+2\lambda^2}{n^2}-\frac{(na+\lambda)^2}{n^2}=\frac{\lambda^2}{n^2}\,;\ee
 $$\left\{\begin{array}{l}
   \lim\limits_{n\to\infty}{\D a^*}=a^2+0-a^2=0\,;\\
   a^*\text{~--~асимптотично незміщена.}
@@ -440,10 +447,10 @@ $$\D \lambda^*=\D (\overline{\xi}-a^*)=
 \frac1{n^2}\D(\xi_1+\dots+\xi_n)+\D a^*=$$
 $$=\frac1n\D\xi_i+\D a^*=
 \frac1n\left(\E{\xi^2}-\left(\E\xi\right)^2\right)+\D a^*=
-\frac1n\left(\cancel{(a+\lambda)^2}+\lambda^2-\cancel{(a+\lambda)^2}\right)+$$
-$$+a^2+\frac{2na\lambda+2\lambda^2}{n^2}-\frac{(na+\lambda)^2}{n^2}$$
+\frac1n\left(\cancel{(a+\lambda)^2}+\lambda^2-\cancel{(a+\lambda)^2}\right)+\frac{\lambda^2}{n^2}=$$
+\be=\frac{(n+1)\lambda^2}{n^2}\ee
 $$\left\{\begin{array}{l}
-  \lim\limits_{n\to\infty}{\D\lambda^*}=\lim\limits_{n\to\infty}{\frac{\lambda^2}n+\D a^*}=0+0=0\,;\\
+  \lim\limits_{n\to\infty}{\D\lambda^*}=\lim\limits_{n\to\infty}{\frac{(n+1)\lambda^2}{n^2}}=0\,;\\
   \lambda^*\text{~--~асимптотично незміщена.}
 \end{array}\right.\Rightarrow$$
 \be\Rightarrow\lambda^*\text{~--~консистентна.}\ee
@@ -454,7 +461,76 @@ $$\left\{\begin{array}{l}
 
 \newpage
 \section{Інтервальні оцінки параметрів.}
-\underline{Задача:} побудувати інтервальні оцінки параметрів розподілу з довірчою імовірністю $\gamma=0.95$.
+\underline{Задача:} побудувати інтервальні оцінки параметрів розподілу з довірчою імовірністю $\gamma=0.95$.\\
+Оскільки розподіл нестандартний, доволі важко буде знайти точний довірчий інтервал, але при великих n доволі непоганої точності можна досягти і з використанням асимптотичних довірчих інтервалів, тому знайдемо саме такий інтервал.\\
+\textbf{Озн.} $(\theta^*_{1n},\theta^*_{2n})$ називається асимптотичним довірчим інтервалом для параметру $\theta$, якщо $\lim\limits_{\overline{n\to\infty}}{\mathbb{P}\{\theta^*_{1n}<\theta<\theta^*_{2n}\}} \stackrel{(\geq)}{=}\gamma$.\\
+\\При великих $n$
+$$\frac{\theta^*-\E\theta^*}{\sqrt{\D\theta^*}}\approx\mathcal{N}(0,1)$$
+% \begin{tikzpicture}
+%   \begin{axis}[
+%     axis lines=middle,
+%     xmin = -5, xmax = 5,
+%     ymin = -.05, ymax = .5,
+%     %xtick distance = 2.5,
+%     %ytick distance = 0.5,
+%     grid = both,
+%     minor tick num = 1,
+%     major grid style = {lightgray},
+%     width = \textwidth,
+%     height = 0.5\textwidth]
+%     \addplot[
+%       domain = -5:5,
+%       samples = 200,
+%       smooth,
+%       thick,
+%       blue,
+%       name path=A
+%     ] {1/sqrt(2*pi)*exp(-x^2/2)};
+%     \addplot[smooth,red] coordinates {(-2.3,-0.01)(-2.3,0.05)};
+%     \addplot[smooth,red] coordinates {(2.3,-0.01)(2.3,0.05)};
+%     \path[name path=xaxis] (\pgfkeysvalueof{/pgfplots/xmin}, 0) -- (\pgfkeysvalueof{/pgfplots/xmax},0);
+%     \addplot[red, pattern=north west lines] fill between[of=A and xaxis, soft clip={domain=-2.3:2.3}];
+%   \end{axis}
+% \end{tikzpicture}
+\begin{center}
+  \includegraphics{N(0,1)}
+  \caption{Рис. 6. Стандартний нормальний розподіл.}
+\end{center}
+\be t_\gamma:\Phi(t_\gamma)=\frac\gamma{2}\ee
+$$\mathbb{P}\{-t_\gamma<\mathcal{N}(0,1)<t_\gamma\}=\gamma$$
+\be\mathbb{P}\{-t_\gamma<\frac{\theta^*-\E\theta^*}{\sqrt{\D\theta^*}}<t_\gamma\}=\gamma\ee
+Для знаходження асимптотичної інтервальної оцінки параметра $\theta$ потрібно розв'язати нерівніть під оператором $\mathbb{P}$ відносно $\theta$.\\
+Для $\gamma=0.95$ маємо значення $t_\gamma=1.95996$.
+
+\newpage
+\underline{Асимптотичний інтервал для параметра зміщеного середнього $\lambda$.}\\
+$$\frac{\lambda^*-\E\lambda^*}{\sqrt{\D\lambda^*}}=
+\frac{\lambda^*-\frac{(n-1)\lambda}n}{\frac{(n+1)\lambda^2}{n^2}}=
+\frac{\lambda^*n^2}{(n+1)\lambda^2}-\frac{n^2-n}{n+1}\,;$$
+$$-t_\gamma<\frac{\lambda^*n^2}{(n+1)\lambda^2}-\frac{n^2-n}{n+1}<t_\gamma\Rightarrow$$
+$$\Rightarrow\frac{n^2-n}{n+1}-t_\gamma<
+\frac{\lambda^*n^2}{(n+1)\lambda^2}
+<\frac{n^2-n}{n+1}+t_\gamma\Rightarrow$$
+$$$$
+\\
+
+
+
+\underline{Асимптотичний інтервал для параметра зміщення $a$.}\\
+$$\frac{a^*-\E a^*}{\sqrt{\D a^*}}=
+\frac{\min\{\xi_i\}-\frac{na+\lambda}{n}}{\frac{\lambda}n}=
+\frac{n}\lambda\min\{\xi_1\}-\frac{na}\lambda-1\,;$$
+$$-t_\gamma<\frac{n}\lambda\min\{\xi_1\}-\frac{na}\lambda-1<t_\gamma\Rightarrow$$
+$$\Rightarrow-t_\gamma-\frac{n}\lambda\min\{\xi_1\}+1<
+-\frac{na}\lambda<
+t_\gamma-\frac{n}\lambda\min\{\xi_1\}+1\Rightarrow$$
+$$\Rightarrow\frac{\lambda t_\gamma}n+\min\{\xi_i\}-\frac\lambda{n}
+>a>
+-\frac{\lambda t_\gamma}n+\min\{\xi_i\}-\frac\lambda{n}\,;$$
+\be a\in\left(
+-\frac{\lambda t_\gamma}n+\min\{\xi_i\}-\frac\lambda{n},\quad
+\frac{\lambda t_\gamma}n+\min\{\xi_i\}-\frac\lambda{n}
+\right)\ee
 
 
 
