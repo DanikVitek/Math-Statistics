@@ -343,8 +343,8 @@ $$\left\{\begin{array}{l}
   (a^*+\lambda^*)^2+(\lambda^*)^2=\overline{\xi^2}
 \end{array}\right.$$\\
 \be\left\{\begin{array}{l}
-  \lambda^*=\sqrt{\overline{\xi^2}-\overline{\xi}^2}\\
-  a^*=\overline{\xi}-\sqrt{\overline{\xi^2}-\overline{\xi}^2}
+  \lambda^*=\sqrt{\overline{\xi^2}-\overline{\xi}^2}\approx3.0174\\
+  a^*=\overline{\xi}-\sqrt{\overline{\xi^2}-\overline{\xi}^2}\approx-2.2236
 \end{array}\right.\ee
 
 \newpage
@@ -504,14 +504,18 @@ $$\mathbb{P}\{-t_\gamma<\mathcal{N}(0,1)<t_\gamma\}=\gamma$$
 
 \newpage
 \underline{Асимптотичний інтервал для параметра зміщеного середнього $\lambda$.}\\
+
+Оскільки для даної оцінки рахувати дисперсію потрібно через коваріацію, бо її компоненти залежні, то можна спробувати трохи знизити точніть, але спростити обчислення~--~прийняти $a^*$ відомим, підставивши оцінене раніше обчислену оцінку ММВ.
 $$\frac{\lambda^*-\E\lambda^*}{\sqrt{\D\lambda^*}}=
-\frac{\lambda^*-\frac{(n-1)\lambda}n}{\frac{(n+1)\lambda^2}{n^2}}=
-\frac{\lambda^*n^2}{(n+1)\lambda^2}-\frac{n^2-n}{n+1}\,;$$
-$$-t_\gamma<\frac{\lambda^*n^2}{(n+1)\lambda^2}-\frac{n^2-n}{n+1}<t_\gamma\Rightarrow$$
-$$\Rightarrow\frac{n^2-n}{n+1}-t_\gamma<
-\frac{\lambda^*n^2}{(n+1)\lambda^2}
-<\frac{n^2-n}{n+1}+t_\gamma\Rightarrow$$
-$$$$
+\left|\begin{array}{c}
+  \D\lambda^*=\D(\overline{\xi}-a)=\D\overline{\xi}=\frac1n\D\xi_i=\frac1n\D\xi=\\
+  =\frac1n\left(\E\overline{\xi}^2-(\E\xi)^2\right)=\frac1n\left((a+\lambda)^2+\lambda^2-(a+\lambda)^2\right)=\frac{\lambda^2}n
+\end{array}\right|=$$
+$$=\frac{\lambda^*-\frac{(n-1)\lambda}n}{\lambda}\sqrt{n}=
+\frac{n\lambda^*-(n-1)\lambda}{n\lambda}\sqrt{n}=
+\frac{n\lambda^*-(n-1)\lambda}{\sqrt{n}\lambda}\,;$$
+$$-t_\gamma<\frac{n\lambda^*-(n-1)\lambda}{\sqrt{n}\lambda}<t_\gamma\quad\Rightarrow\quad
+\frac{(n\lambda^*-(n-1)\lambda)^2}{n\lambda^2}<t_\gamma^2$$
 \\
 
 
@@ -531,6 +535,11 @@ $$\Rightarrow\frac{\lambda t_\gamma}n+\min\{\xi_i\}-\frac\lambda{n}
 -\frac{\lambda t_\gamma}n+\min\{\xi_i\}-\frac\lambda{n},\quad
 \frac{\lambda t_\gamma}n+\min\{\xi_i\}-\frac\lambda{n}
 \right)\ee
+Оскільки ми не маємо точного значення параметра $\lambda$, також можемо взяти його оцінку, що знизить точність, але інтервал і так був асимптотичним, тому це не сильно вплине. Отже:
+$$a\in\left(-\frac{\lambda^*t_\gamma}n+\min\{x_i\}-\frac{\lambda}n,\quad
+\frac{\lambda^*t_\gamma}n+\min\{x_i\}-\frac{\lambda}n\right)=$$
+$$=(-4.6464,\quad-4.4393).$$
+Як видно, отримана методом максимальної вірогідності оцінка потрапляє у заданий проміжок, однак оцінка методом моментів~--~ні.
 
 
 
