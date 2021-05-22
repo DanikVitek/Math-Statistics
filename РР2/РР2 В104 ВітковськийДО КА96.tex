@@ -503,24 +503,40 @@ $$\mathbb{P}\{-t_\gamma<\mathcal{N}(0,1)<t_\gamma\}=\gamma$$
 Для $\gamma=0.95$ маємо значення $t_\gamma=1.95996$.
 
 \newpage
-\underline{Асимптотичний інтервал для параметра зміщеного середнього $\lambda$.}\\
+\underline{\textbf{Асимптотичний інтервал для параметра зміщеного середнього $\lambda$.}}\\
 
 Оскільки для даної оцінки рахувати дисперсію потрібно через коваріацію, бо її компоненти залежні, то можна спробувати трохи знизити точніть, але спростити обчислення~--~прийняти $a^*$ відомим, підставивши оцінене раніше обчислену оцінку ММВ.
 $$\frac{\lambda^*-\E\lambda^*}{\sqrt{\D\lambda^*}}=
 \left|\begin{array}{c}
   \D\lambda^*=\D(\overline{\xi}-a)=\D\overline{\xi}=\frac1n\D\xi_i=\frac1n\D\xi=\\
-  =\frac1n\left(\E\overline{\xi}^2-(\E\xi)^2\right)=\frac1n\left((a+\lambda)^2+\lambda^2-(a+\lambda)^2\right)=\frac{\lambda^2}n
+  =\frac1n\left(\E\xi^2-(\E\xi)^2\right)=\frac1n\left((a+\lambda)^2+\lambda^2-(a+\lambda)^2\right)=\frac{\lambda^2}n
 \end{array}\right|=$$
 $$=\frac{\lambda^*-\frac{(n-1)\lambda}n}{\lambda}\sqrt{n}=
 \frac{n\lambda^*-(n-1)\lambda}{n\lambda}\sqrt{n}=
 \frac{n\lambda^*-(n-1)\lambda}{\sqrt{n}\lambda}\,;$$
 $$-t_\gamma<\frac{n\lambda^*-(n-1)\lambda}{\sqrt{n}\lambda}<t_\gamma\quad\Rightarrow\quad
-\frac{(n\lambda^*-(n-1)\lambda)^2}{n\lambda^2}<t_\gamma^2$$
-\\
+\frac{(n\lambda^*-(n-1)\lambda)^2}{n\lambda^2}<t_\gamma^2\Rightarrow$$
+$$\Rightarrow(n-1)^2\lambda^2-2(n^2-n)\lambda^*\lambda+n^2(\lambda^*)^2<nt_\gamma^2\lambda^2\Rightarrow$$
+$$\Rightarrow(n-nt_\gamma^2-1)\lambda^2-2(n^2-n)\lambda^*\lambda+n^2(\lambda^*)^2<0\;\fbox{\Rightarrow}$$
+$$\mathcal{D}=b^2-4\hat{a}c=4(n^2-n)^2(\lambda^*)^2-4(n-nt_\gamma^2-1)n^2(\lambda^*)^2=$$
+$$=4n^4(\lambda^*)^2
+-8n^3(\lambda^*)^2 % 12
++4n^2(\lambda^*)^2
+-4n^3(\lambda^*)^2 %----
++4n^3t_\gamma^2(\lambda^*)^2
++4n^2(\lambda^*)^2=$$
+$$=4n^4(\lambda^*)^2
+-12n^3(\lambda^*)^2
++8n^2(\lambda^*)^2
++4n^3t_\gamma^2(\lambda^*)^2=$$
+$$=4n^2(\lambda^*)^2(n^2-3n+2+nt_\gamma^2)\,;$$
+$$\fbox{\Rightarrow}\;\lambda^*_{1,2}=\frac{-b\pm\sqrt{\mathcal{D}}}{2\hat{a}}=
+\frac{(n^2-n)\lambda^*\pm n\lambda^*\sqrt{n^2-3n+2+nt_\gamma^2}}{n-nt^2_\gamma-1}=$$
+\be=\frac{n\lambda^*\left((n-1)\pm\sqrt{n^2-3n+2+nt_\gamma^2}\right)}{n-nt_\gamma^2-1}\ee
 
 
-
-\underline{Асимптотичний інтервал для параметра зміщення $a$.}\\
+\newpage
+\underline{\textbf{Асимптотичний інтервал для параметра зміщення $a$.}}\\
 $$\frac{a^*-\E a^*}{\sqrt{\D a^*}}=
 \frac{\min\{\xi_i\}-\frac{na+\lambda}{n}}{\frac{\lambda}n}=
 \frac{n}\lambda\min\{\xi_1\}-\frac{na}\lambda-1\,;$$

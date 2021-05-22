@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.11.27)  22 MAY 2021 19:48
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.11.27)  22 MAY 2021 20:32
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1910,21 +1910,99 @@ Overfull \hbox (1.77841pt too wide) in paragraph at lines 496--498
  []
 
 [19 <./N(0,1).png (PNG copy)>]
+Overfull \hbox (1.6999pt too wide) in paragraph at lines 506--507
+[]$[]$ 
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 506--507
 
  []
 
+./РР2 В104 ВітковськийДО КА96.tex:520: Missing $ inserted.
+<inserted text> 
+                $
+l.520 ...da+n^2(\lambda^*)^2<0\;\fbox{\Rightarrow}
+                                                  $$
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
 
-Underfull \hbox (badness 10000) in paragraph at lines 518--520
+./РР2 В104 ВітковськийДО КА96.tex:520: Extra }, or forgotten 
+$.
+\fbox  ...x {\color@begingroup \kern \fboxsep {#1}
+                                                  \kern \fboxsep \color@endg...
+l.520 ...da+n^2(\lambda^*)^2<0\;\fbox{\Rightarrow}
+                                                  $$
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./РР2 В104 ВітковськийДО КА96.tex:520: Missing $ inserted.
+<inserted text> 
+                $
+l.520 ...da+n^2(\lambda^*)^2<0\;\fbox{\Rightarrow}
+                                                  $$
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./РР2 В104 ВітковськийДО КА96.tex:520: Missing } inserted.
+<inserted text> 
+                }
+l.520 ...da+n^2(\lambda^*)^2<0\;\fbox{\Rightarrow}
+                                                  $$
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./РР2 В104 ВітковськийДО КА96.tex:533: Missing $ inserted.
+<inserted text> 
+                $
+l.533 $$\fbox{\Rightarrow}
+                          \;\lambda^*_{1,2}=\frac{-b\pm\sqrt{\mathcal{D}}}{2...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./РР2 В104 ВітковськийДО КА96.tex:533: Extra }, or forgotten 
+$.
+\fbox  ...x {\color@begingroup \kern \fboxsep {#1}
+                                                  \kern \fboxsep \color@endg...
+l.533 $$\fbox{\Rightarrow}
+                          \;\lambda^*_{1,2}=\frac{-b\pm\sqrt{\mathcal{D}}}{2...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./РР2 В104 ВітковськийДО КА96.tex:533: Missing $ inserted.
+<inserted text> 
+                $
+l.533 $$\fbox{\Rightarrow}
+                          \;\lambda^*_{1,2}=\frac{-b\pm\sqrt{\mathcal{D}}}{2...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./РР2 В104 ВітковськийДО КА96.tex:533: Missing } inserted.
+<inserted text> 
+                }
+l.533 $$\fbox{\Rightarrow}
+                          \;\lambda^*_{1,2}=\frac{-b\pm\sqrt{\mathcal{D}}}{2...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+[20]
+Underfull \hbox (badness 10000) in paragraph at lines 539--540
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 523--524
-
- []
-
-[20] (./РР2 В104 ВітковськийДО КА96.aux) ) 
+[21] (./РР2 В104 ВітковськийДО КА96.aux) ) 
 Here is how much of TeX's memory you used:
  32178 strings out of 481239
  769789 string characters out of 5920376
@@ -1949,11 +2027,11 @@ nts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf/fonts/type1/public/cm-
 super/sfrm1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1440.pfb><
 /usr/share/texmf/fonts/type1/public/cm-super/sfsx1440.pfb></usr/share/texmf/fon
 ts/type1/public/cm-super/sfsx2074.pfb>
-Output written on "РР2 В104 ВітковськийДО КА96.pdf" (20 pages
-, 277597 bytes).
+Output written on "РР2 В104 ВітковськийДО КА96.pdf" (21 pages
+, 280675 bytes).
 PDF statistics:
- 143 PDF objects out of 1000 (max. 8388607)
- 98 compressed objects within 1 object stream
+ 146 PDF objects out of 1000 (max. 8388607)
+ 100 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  43 words of extra memory for PDF output out of 10000 (max. 10000000)
 
