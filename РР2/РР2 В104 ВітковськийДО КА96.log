@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.11.27)  22 MAY 2021 20:32
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.11.27)  22 MAY 2021 21:12
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1958,19 +1958,19 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-./РР2 В104 ВітковськийДО КА96.tex:533: Missing $ inserted.
+./РР2 В104 ВітковськийДО КА96.tex:524: Missing $ inserted.
 <inserted text> 
                 $
-l.533 $$\fbox{\Rightarrow}
+l.524 $$\fbox{\Rightarrow}
                           \;\lambda^*_{1,2}=\frac{-b\pm\sqrt{\mathcal{D}}}{2...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-./РР2 В104 ВітковськийДО КА96.tex:533: Extra }, or forgotten 
+./РР2 В104 ВітковськийДО КА96.tex:524: Extra }, or forgotten 
 $.
 \fbox  ...x {\color@begingroup \kern \fboxsep {#1}
                                                   \kern \fboxsep \color@endg...
-l.533 $$\fbox{\Rightarrow}
+l.524 $$\fbox{\Rightarrow}
                           \;\lambda^*_{1,2}=\frac{-b\pm\sqrt{\mathcal{D}}}{2...
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1978,18 +1978,18 @@ you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
-./РР2 В104 ВітковськийДО КА96.tex:533: Missing $ inserted.
+./РР2 В104 ВітковськийДО КА96.tex:524: Missing $ inserted.
 <inserted text> 
                 $
-l.533 $$\fbox{\Rightarrow}
+l.524 $$\fbox{\Rightarrow}
                           \;\lambda^*_{1,2}=\frac{-b\pm\sqrt{\mathcal{D}}}{2...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-./РР2 В104 ВітковськийДО КА96.tex:533: Missing } inserted.
+./РР2 В104 ВітковськийДО КА96.tex:524: Missing } inserted.
 <inserted text> 
                 }
-l.533 $$\fbox{\Rightarrow}
+l.524 $$\fbox{\Rightarrow}
                           \;\lambda^*_{1,2}=\frac{-b\pm\sqrt{\mathcal{D}}}{2...
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1998,7 +1998,7 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 [20]
-Underfull \hbox (badness 10000) in paragraph at lines 539--540
+Underfull \hbox (badness 10000) in paragraph at lines 530--531
 
  []
 
@@ -2028,7 +2028,7 @@ super/sfrm1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1440.pfb><
 /usr/share/texmf/fonts/type1/public/cm-super/sfsx1440.pfb></usr/share/texmf/fon
 ts/type1/public/cm-super/sfsx2074.pfb>
 Output written on "РР2 В104 ВітковськийДО КА96.pdf" (21 pages
-, 280675 bytes).
+, 280753 bytes).
 PDF statistics:
  146 PDF objects out of 1000 (max. 8388607)
  100 compressed objects within 1 object stream
