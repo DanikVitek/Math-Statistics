@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.11.27)  23 MAY 2021 13:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.11.27)  23 MAY 2021 13:53
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -2148,7 +2148,7 @@ super/sfrm1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1440.pfb><
 /usr/share/texmf/fonts/type1/public/cm-super/sfsx1440.pfb></usr/share/texmf/fon
 ts/type1/public/cm-super/sfsx2074.pfb>
 Output written on "РР2 В104 ВітковськийДО КА96.pdf" (23 pages
-, 290044 bytes).
+, 290064 bytes).
 PDF statistics:
  153 PDF objects out of 1000 (max. 8388607)
  104 compressed objects within 2 object streams
