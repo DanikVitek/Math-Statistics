@@ -423,9 +423,9 @@ $$\lim\limits_{n\to\infty}{\E \lambda^*}=\lim\limits_{n\to\infty}{\frac{n\lambda
 \be\Rightarrow\lambda^*\text{~--~є асимптотично незміщеною.}\ee
 \newpage\\
 \underline{\textbf{Консистентність.}}
-$$\P \lim\limits_{n\to\infty}{a^*}\stackrel{?}{=}a$$
-$$\P \lim\limits_{n\to\infty}{\lambda^*}\stackrel{?}{=}\lambda$$
-Перевіримо за лемою про консистентність. Для цього потрібно обчислити дисперсії оцінок.
+$$\P\lim\limits_{n\to\infty}{a^*}\stackrel{?}{=}a$$
+$$\P\lim\limits_{n\to\infty}{\lambda^*}\stackrel{?}{=}\lambda$$
+Перевіримо за лемою про консистентність. Для цього потрібно обчислити дисперсії оцінок. Пізніше вона усе одно знадобиться для обчислення інтервальних оцінок.
 $$\D a^*=\E (a^*)^2-\left(\E a^*\right)^2\,;$$
 $$\E (a^*)^2=\frac{n}\lambda\int\limits_{a}^{+\infty}{x^2\cdot e^{-n\frac{x-a}\lambda}\,dx}=
 \left|\begin{array}{cc}
@@ -444,18 +444,23 @@ $$\left\{\begin{array}{l}
 \end{array}\right.\Rightarrow$$
 \be\Rightarrow a^*\text{~--~консистентна}\ee\\
 
-$$\D \lambda^*=\D (\overline{\xi}-a^*)=
-\D \overline{\xi}+\D a^*=\D\frac{\xi_1+\dots+\xi_n}n+\D a^*=
-\frac1{n^2}\D(\xi_1+\dots+\xi_n)+\D a^*=$$
-$$=\frac1n\D\xi_i+\D a^*=
-\frac1n\left(\E{\xi^2}-\left(\E\xi\right)^2\right)+\D a^*=
-\frac1n\left(\cancel{(a+\lambda)^2}+\lambda^2-\cancel{(a+\lambda)^2}\right)+\frac{\lambda^2}{n^2}=$$
-\be=\frac{(n+1)\lambda^2}{n^2}\ee
-$$\left\{\begin{array}{l}
-  \lim\limits_{n\to\infty}{\D\lambda^*}=\lim\limits_{n\to\infty}{\frac{(n+1)\lambda^2}{n^2}}=0\,;\\
-  \lambda^*\text{~--~асимптотично незміщена.}
-\end{array}\right.\Rightarrow$$
-\be\Rightarrow\lambda^*\text{~--~консистентна.}\ee
+% $$\D \lambda^*=\D (\overline{\xi}-a^*)=
+% \D \overline{\xi}+\D a^*=\D\frac{\xi_1+\dots+\xi_n}n+\D a^*=
+% \frac1{n^2}\D(\xi_1+\dots+\xi_n)+\D a^*=$$
+% $$=\frac1n\D\xi_i+\D a^*=
+% \frac1n\left(\E{\xi^2}-\left(\E\xi\right)^2\right)+\D a^*=
+% \frac1n\left(\cancel{(a+\lambda)^2}+\lambda^2-\cancel{(a+\lambda)^2}\right)+\frac{\lambda^2}{n^2}=$$
+% \be=\frac{(n+1)\lambda^2}{n^2}\ee
+% $$\left\{\begin{array}{l}
+%   \lim\limits_{n\to\infty}{\D\lambda^*}=\lim\limits_{n\to\infty}{\frac{(n+1)\lambda^2}{n^2}}=0\,;\\
+%   \lambda^*\text{~--~асимптотично незміщена.}
+% \end{array}\right.\Rightarrow$$
+% \be\Rightarrow\lambda^*\text{~--~консистентна.}\ee
+Для дослідження на консистентність параметра $\lambda^*$ краще піти через означення границі за ймівірністю, оскільки обчислення дисперсії потребує обчислення коваріації, що буде доволі проблематично.
+$$\P\lim\limits_{n\to\infty}{\lambda^*}=
+\P\lim\limits_{n\to\infty}{\overline{\xi}-a^*}\stackrel{ЗВЧ}{=}
+\E\xi-\P\lim\limits_{n\to\infty}{\min\{\xi_i\}}=a+\lambda-a=\lambda\quad\Rightarrow$$
+\be\Rightarrow\lambda^*\text{~--~консистентна}\ee
 
 \newpage
 \underline{\textbf{Ефективність.}}\\
